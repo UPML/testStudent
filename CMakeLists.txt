@@ -3,7 +3,8 @@ project(testStudent)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -fsanitize=address -g -fsanitize=address,undefined -fno-omit-frame-pointer -g -Wall -Wconversion -Wextra")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -fsanitize=address,undefined -fno-omit-frame-pointer -g -Wall -Wconversion -Wextra -Werror")
 
-set(SOURCE_FILES main.cpp)
-add_executable(testStudent ${SOURCE_FILES})
+
+add_executable(Module1Task1 Module1/Task1/main.cpp)
+add_executable(Module1Task2 Module1/Task2/main.cpp)
