@@ -13,5 +13,5 @@ int main() {
         std::cout << z << '\n';
     }
 
-    std::cout << "Hi" << '\n';
+    std::cout << "Hi, Fedor" << '\n';
 }
