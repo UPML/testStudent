@@ -4,7 +4,7 @@
 
 
 int main() {
-    std::cout << "Hi" << '\n';
+    std::cout << "Hi, Petr" << '\n';
 
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(nullptr);
@@ -13,5 +13,5 @@ int main() {
         std::cout << z << '\n';
     }
 
-    std::cout << "Hi, Konstantin" << '\n';
+    std::cout << "Hi, Fedor" << '\n';
 }
